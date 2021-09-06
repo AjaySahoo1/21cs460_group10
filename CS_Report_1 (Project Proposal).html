@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CS460/600 Project</title>
+    
+    <link href="http://www.niser.ac.in/~smishra/css/smlab.css" rel="stylesheet" type="text/css" />
+    
+    <style> 
+    figcaption {
+  
+  color: blue;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+h1 {
+  text-align: center;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+div.box {
+  box-sizing: border-box;
+  width: 100%;
+  border: 5px blue;
+  
+}
+</style>
+</head>
+
+
+
+<body text="Black">
+    <div class="container">
+        <h1><center><pre>CS460 Machine Learning</pre></center> </h1>
+      <div class="box"><b>Ajaya Saipriya Sahoo, 4th year Int Msc, School of Mathematical Sciences, NISER <br>
+      Prateek Kumar Murmu, 4th year Int Msc, School of Mathematical Sciences, NISER<br>
+Project Group No. 10</b></div> 
+      <hr/>
+    
+      
+      <div class="box"><b>
+      Link to access files:</b> <a href="https://github.com/AjaySahoo1/21cs460_group10">Link</a> </div>
+
+      <br>
+      <br>
+
+
+
+        <h1> <u>Stock Prediction using SVR</u></h1>
+        <br>
+        <br>
+        <br>
+
+        <h2>Problem Statement</h2>
+<p>We all know the value of money. Everyone wants to earn to live a stable life. But we also want to become rich with low efforts and great advantages. We all have some kind of wish list in our mind and we need a lot of money to fulfill
+those desires. Stock market is one of the best platform for this. But again there are risks which we don't want. Or do you want to take risk and lose your money? No, right? Even though there are risks one can forecast the stocks 
+by visualising the past stock values and some statistical factors.</p>
+
+<p>In this project we are trying to plots of financial data of a specific company by using tabular data provided by "yfinance" python library. Again we will create a Support Vector Regression(SVR) model to predict upcoming stock 
+prices. This will reduce the risk factor for the investors.</p>
+
+<hr/>
+
+<h2>Datasets and Idea</h2>
+<p>We are going to use Yahoo Finanace, Quandle and if possible some other platform from which we can get sufficient dataset for stock prediction. We will create a SVR model. We will split the data set into training and testing data.
+After training the model we will check the performance of the model by using different metrics(e.g mean square error, mean absolute error). We have already studied about the Support Vector Machine for Linear Regression and SVR uses same 
+principle as SVM.
+
+<hr/>
+
+<h2>Work Division</h2>
+<p>No team is a perfect team without teamwork and coordination. We will discuss everything about our work. But roughly saying, Ajaya is going to give the 1st and 2nd Presentation, create slides and Prateek is going to
+present the last presentation, provide the summary of all theories for the report. Creating ML model using python and handling website for reports will come under joint task. </p>
+
+<hr/>
+
+<h2> Mid-way work and Expecting results</h2>
+<p>Since we are taking support vector machine as our baseline, our main focus is to understand how the SVR algorithm works theoratically. After that we will try to build the model for it, test the performance of trained model, forecast 
+the stock for a certain date by plotting a graph between "exponential moving average vs date". At the latter stage we are planning to compare the result with the result obtained by other algorithm for example Long Short-Term Memory
+(LSTM) model.</p>
+<p> There are some difficulties we might face such as SVR model may not work for large data sets, choosing a good kernel and fine-tuning the hyperparameters are not easy task. So the final goal of the project to bulld a model that might
+overcome some of these obstacles.</p>
+
+<hr/>
+
+<h3>References</h3>
+        <ol>
+            <li id="ref-1">
+              <cite>
+                Ghania M.U, Awaisa M and Muzammul M, "Stock Market Prediction Using Machine Learning(ML) Algorithms", Department of Software Engineering, Government College University Faisalabad, Advances in Distributed Computing and Artificial Intelligence Journal
+Regular Issue, Vol. 8 N. 4, 2019.
+                <a href=": http://dx.doi.org/10.14201/ADCAIJ20198497116">Link</a>.
+              </cite>
+            </li>
+            <li id="ref-2">
+                <cite>
+                    Vanukuru K.S.R, "Stock Market Prediction Using Machine Learning", Vol. 05 Issue. 10, International Research Journal of Engineering and Technology (IRJET), Oct 2018.
+			<a href="http://dx.doi.org/10.13140/RG.2.2.12300.77448">Link</a>.
+                </cite>
+              </li>
+<li id="ref-3">
+                <cite>
+                    Henrique B.M, Sobreiro V.A and Kimura H, Stock Price Prediction Using Support Vector Regression on Daily and Up to the Minute Prices, The Journal of Finance and Data Science, vol. 4, no. 3, pp. 183-201, 2018.
+			<a href="https://doi.org/10.1016/j.jfds.2018.04.003">Link</a>.
+                </cite>
+              </li>
+        </ol>
+        
+        <hr/>
+
+       
+    </div>
+</body>
+
+</html>
